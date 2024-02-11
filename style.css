@@ -1,0 +1,48 @@
+
+body {
+    text-align: center;
+    background-color: rgb(3, 3, 3);
+    color: aliceblue;
+
+}
+.top-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#flexbox-row, #flexbox-column, #css-grid-layout, #linear-gradients, #box-transition-glow, #overlay-card-with-title {
+    width: 30%;
+    color: fuchsia;
+    
+}
+
+.code-box-top {
+    background-image: linear-gradient(violet 20%, blueviolet 80%);
+    height: 50%;
+    color: aliceblue;
+    text-align: left;
+}
+
+.code-box-bottom {
+    background-image: linear-gradient(violet 20%, blueviolet 80%);
+    height: 70%;
+}
+
+.field-top {
+    height: 300px;
+}
+
+.field-bottom {
+    height: 600px;
+}
+
+legend {
+    text-align: left;
+    font-weight: bold;
+    font-size: larger;
+}
